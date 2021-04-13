@@ -1,0 +1,197 @@
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav-left {
+float: left;
+}
+
+.topnav-right {
+float: right;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid green;
+  }
+  
+.topnav a.active {
+    border-bottom: 3px solid green;
+}
+
+.nav-list {
+color: black;
+text-decoration: none;
+padding: 10px
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid black;
+    margin: 0rem 0!important;
+}
+
+a.add-function {
+    float: right!important;
+    margin-top: 35px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+.login-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.login-form-control {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+
+.add.form-group {
+    margin-top: 10px!important;
+}
+
+.edit.form-group {
+    margin-top: 10px!important;
+}
+
+p.profile {
+    margin: 0px;
+
+}
+/* ph workers */
+.page-title {
+    margin-top: 30px;
+}
+
+/* phfacility */
+
+table { 
+    font-size: 0.9vw; 
+}
+
+
+/* people */
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    width: 75%;
+}
+
+.addPerson {
+    margin-top: 30px;
+}
+
+.peopleSearch {
+    text-align: end;
+}
+
+/* input[type="text"] {
+    padding: 5px;
+} */
+
+/* profile */
+
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    margin-right:15px;
+    float:left;
+}
+.form-group.details input {
+    height: 20px;
+    width: 400px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+
+/* covid-form */
+
+.form-group.symptoms input {
+    height: 20px;
+    width: 150px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 15px;
+}
+.form-group.symptoms input.symptom {
+    width: 20px;
+}
+
+h3.covidform {
+    padding-bottom: 20px!important;
+}
+
+h6.symptoms {
+    color: red!important;
+    padding-top: 20px!important;
+}
+
+button.btn.btn-primary.submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input#other {
+    height: 100px;
+}
+
+td.action {
+    text-align: center!important;
+}
+
+
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 70px;            /* Footer height */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
